@@ -1,0 +1,157 @@
+note: "* indicates corresponding author."
+years:
+  - year: 2025
+    items:
+      - authors: "Taichi A. Suzuki*, Akbuğa-Schön Tanja, Jillian L. Waters, Dennis Jakob, Dai Long Vu, Mallory A. Ballinger, Sara C. Di Rienzi, _Hao Chang_, Ivan E. de Araújo, Alexander Tyakht, Ruth E. Ley"
+        title: Selection and transmission of the gut microbiome alone can shift mammalian behavior
+        url: https://www.nature.com/articles/s41467-025-65368-w
+        journal: Nature Communications
+        doi: 10.1038/s41467-025-65368-w
+      - authors: "Taichi A. Suzuki, Tanja Akbuğa-Schön, Jillian L. Waters, Dennis Jakob, Dai Long Vu, Mallory A. Ballinger, Sara C. Di Rienzi, _Hao Chang_, Ivan E. de Araújo, Alexander Tyakht, Ruth E. Ley*"
+        title: Selection and transmission of the gut microbiome alone shifts mammalian behavior
+        url: https://www.biorxiv.org/lookup/doi/10.1101/2025.01.21.634013
+        journal: bioRxiv
+        doi: 10.1101/2025.01.21.634013
+
+  - year: 2024
+    items:
+      - authors: "_Hao Chang_*, Matthew H. Perkins, Leonardo Santana Novaes, Qian Feng, Tong Zhang, Peter H. Neckel, Simon Scherer, Ruth E. Ley, Wenfei Han*, Ivan E. de Araújo*"
+        title: Stress-sensitive neural circuits change the gut microbiome via duodenal glands
+        url: https://linkinghub.elsevier.com/retrieve/pii/S0092867424007797
+        journal: Cell
+        doi: 10.1016/j.cell.2024.07.019
+      - authors: "_Hao Chang_, Matthew H. Perkins, Leonardo Santana Novaes, Qian Feng, Wenfei Han, Ivan E. de Araújo*"
+        title: An Amygdalar-Vagal-Glandular Circuit Controls the Intestinal Microbiome
+        url: https://www.biorxiv.org/lookup/doi/10.1101/2024.06.02.594027
+        journal: bioRxiv
+        doi: 10.1101/2024.06.02.594027
+
+  - year: 2023
+    items:
+      - authors: "Mei Han*, Matthew H. Perkins, Leonardo Santana Novaes, Tao Xu*, _Hao Chang_*"
+        title: "Advances in transposable elements: from mechanisms to applications in mammalian genomics"
+        url: https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2023.1290146/full
+        journal: Frontiers in Genetics
+        doi: 10.3389/fgene.2023.1290146
+      - authors: "Bohan Liu*, _Hao Chang_, Dong Yang, Feifei Yang, Qiushuang Wang, Yujiao Deng, Lijun Li, Wenqing Lv, Bo Zhang, Liheng Yu, Daniel Burkhoff, Kunlun He"
+        title: A deep learning framework assisted echocardiography with diagnosis, lesion localization, phenogrouping heterogeneous disease, and anomaly detection
+        url: https://www.nature.com/articles/s41598-022-27211-w
+        journal: Scientific Reports
+        doi: 10.1038/s41598-022-27211-w
+
+  - year: 2022
+    items:
+      - authors: "Tong Zhang*, Matthew H. Perkins, _Hao Chang_, Wenfei Han, Ivan E. de Araújo"
+        title: An inter-organ neural circuit for appetite suppression
+        url: https://linkinghub.elsevier.com/retrieve/pii/S0092867422005918
+        journal: Cell
+        doi: 10.1016/j.cell.2022.05.007
+
+  - year: 2021
+    items:
+      - authors: "Yang Dong*, Jiangshan Chen, Xiongchao Cheng, Bo Cao, _Hao Chang_, Xuan Li, Chanjuan Yang, Qiuxia Wu, Jiaqi Sun, Diane Manry, Yukun Pan, Yongli Dong, Jiaojiao Li, Tian Xu*, Liping Cao*"
+        title: SERINC2 increases the risk of bipolar disorder in the Chinese population
+        url: https://onlinelibrary.wiley.com/doi/10.1002/da.23186
+        journal: Depression and Anxiety
+        doi: 10.1002/da.23186
+
+  - year: 2020
+    items:
+      - authors: "Bo Yuan*, Dong Yang, Barry E. G. Rothberg, _Hao Chang_, Xu Tian"
+        title: Unsupervised and supervised learning with neural network for human transcriptome analysis and cancer diagnosis
+        url: https://www.nature.com/articles/s41598-020-75715-0
+        journal: Scientific Reports
+        doi: 10.1038/s41598-020-75715-0
+
+  - year: 2019
+    items:
+      - authors: "_Hao Chang_*, Yukun Pan, Sean F. Landrette, Sheng Ding, Yang Dong, Lufang Liu, Lei Tian, Hongyan Chai, Peining Li, Daming Li, Tian Xu"
+        title: Efficient genome-wide first-generation phenotypic screening system in mice using the piggyBac transposon
+        url: https://pnas.org/doi/full/10.1073/pnas.1906354116
+        journal: Proceedings of the National Academy of Sciences
+        doi: 10.1073/pnas.1906354116
+
+  - year: 2018
+    items:
+      - authors: "Tian Li, Ramanaiah Mamillapalli*, Sheng Ding, _Hao Chang_, Liu Hon, Xiao-Bing Gao, Hugh S. Taylor"
+        title: Endometriosis alters brain electrophysiology, gene expression and increases pain sensitization, anxiety, and depression in female mice
+        url: https://academic.oup.com/biolreprod/article/99/2/349/4841840
+        journal: Biology of Reproduction
+        doi: 10.1093/biolre/ioy035
+
+  - year: 2017
+    items:
+      - authors: "Mei Han, Wenjuan Zou, _Hao Chang_, Yong Yu, Haining Zhang, Shitian Li, Hankui Cheng, Guifeng Wei, Yan Chen, V Reinke, Tao Xu*, Lijun Kang*"
+        title: A Systematic RNAi Screen Reveals a Novel Role of a Spindle Assembly Checkpoint Protein BuGZ in Synaptic Transmission in C. elegans
+        url: https://www.frontiersin.org/journals/molecular-neuroscience/articles/10.3389/fnmol.2017.00141/full
+        journal: Frontiers in Molecular Neuroscience
+        doi: 10.3389/fnmol.2017.00141
+      - authors: "_Hao Chang_*"
+        title: Skin cancer reorganization and classification with deep neural network
+        url: https://arxiv.org/abs/1703.00534
+        journal: arXiv
+        doi: 10.48550/arXiv.1703.00534
+
+  - year: 2014
+    items:
+      - authors: "Xi Zhang*, Yongqiang Deng, _Hao Chang_, Chen Ji, Mingshu Zhang, Jianxin Peng, Tao Xu, Pingyong Xu"
+        title: The specific and rapid labeling of cell surface proteins with recombinant FKBP-fused fluorescent proteins
+        url: https://academic.oup.com/proteincell/article/5/10/800/6831743
+        journal: Protein & Cell
+        doi: 10.1007/s13238-014-0090-8
+      - authors: "Peng Xi"
+        title: Optical Nanoscopy and Novel Microscopy Techniques
+        url: https://www.taylorfrancis.com/books/edit/10.1201/b17421/optical-nanoscopy-novel-microscopy-techniques-peng-xi
+        journal: CRC Press
+        doi: 10.1201/b17421
+      - authors: "Lusheng Gu, Yi Sheng, Yan Chen, _Hao Chang_, Yongdeng Zhang, Pingping Lv, Wei Ji*, Tao Xu*"
+        title: High-density 3D single molecular analysis based on compressed sensing
+        url: https://linkinghub.elsevier.com/retrieve/pii/S0006349514004068
+        journal: Biophysical Journal
+        doi: 10.1016/j.bpj.2014.04.021
+
+  - year: 2013
+    items:
+      - authors: "Yongdeng Zhang*, _Hao Chang_, Lusheng Gu, Yanhua Zhao, Tao Xu, Wei Ji"
+        title: Super-resolution microscopy of live cells using single molecule localization
+        url: https://link.springer.com/article/10.1007/s11434-013-6088-4
+        journal: Chinese Science Bulletin
+        doi: 10.1007/s11434-013-6088-4
+      - authors: "Yongdeng Zhang*, Lusheng Gu, _Hao Chang_, Wei Ji, Yan Chen, Mingshu Zhang, Yang Lü, Bei Liu, Liangyi Chen, Tao Xu"
+        title: Ultrafast, accurate, and robust localization of anisotropic dipoles
+        url: https://academic.oup.com/proteincell/article/4/8/598/6874294
+        journal: Protein & Cell
+        doi: 10.1007/s13238-013-3904-1
+      - authors: "Juanjuan Chen, Jing Jing, _Hao Chang_, Yueguang Rong, Yang Hai, Juan Tang, Jun-Long Zhang*, Pingyong Xu*"
+        title: A sensitive and quantitative autolysosome probe for detecting autophagic activity in live and prestained fixed cells
+        url: https://www.tandfonline.com/doi/abs/10.4161/auto.24241
+        journal: Autophagy
+        doi: 10.4161/auto.24241
+      - authors: "Mei Han, _Hao Chang_, Peng Zhang, Tao Chen, Yanhua Zhao, Yongdeng Zhang, Pingsheng Liu, Tao Xu*, Pingyong Xu*"
+        title: C13C4.5/Spinster, an evolutionarily conserved protein that regulates fertility in C. elegans through a lysosome-mediated lipid metabolism process
+        url: https://academic.oup.com/proteincell/article/4/5/364/6874329
+        journal: Protein & Cell
+        doi: 10.1007/s13238-013-3015-z
+      - authors: "_Hao Chang_*, Mei Han, Wenming Huang, Guifeng Wei, Juanjuan Chen, Peng R. Chen, Runsheng Chen, Jun-Long Zhang, Tao Xu, Pingyong Xu"
+        title: Light-induced protein translocation by genetically encoded unnatural amino acid in Caenorhabditis elegans
+        url: https://academic.oup.com/proteincell/article/4/12/883/6874340
+        journal: Protein & Cell
+        doi: 10.1007/s13238-013-3118-6
+
+  - year: 2012
+    items:
+      - authors: "Monica C. Sleumer*, Guifeng Wei, Yunfei Wang, _Hao Chang_, Tao Xu, Runsheng Chen, Michael Q. Zhang"
+        title: Regulatory elements of Caenorhabditis elegans ribosomal protein genes
+        url: https://link.springer.com/article/10.1186/1471-2164-13-433
+        journal: BMC Genomics
+        doi: 10.1186/1471-2164-13-433
+      - authors: "Mingshu Zhang*, _Hao Chang_, Yongdeng Zhang, Junwei Yu, Lijie Wu, Wei Ji, Juanjuan Chen, Bei Liu, Jingze Lu, Yingfang Liu, Jun-Long Zhang, Pingyong Xu, Tao Xu"
+        title: Rational design of true monomeric and bright photoactivatable fluorescent proteins
+        url: https://www.nature.com/articles/nmeth.2021
+        journal: Nature Methods
+        doi: 10.1038/nmeth.2021
+      - authors: "_Hao Chang_*, Mingshu Zhang, Wei Ji, Juanjuan Chen, Yongdeng Zhang, Bei Liu, Jingze Lu, Jun-Long Zhang, Pingyong Xu, Tao Xu"
+        title: A unique series of reversibly switchable fluorescent proteins with beneficial properties for various applications
+        url: https://pnas.org/doi/full/10.1073/pnas.1113770109
+        journal: Proceedings of the National Academy of Sciences
+        doi: 10.1073/pnas.1113770109

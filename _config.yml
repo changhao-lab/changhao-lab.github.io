@@ -1,0 +1,11 @@
+title: Chang Hao Lab
+description: Biomedical & Brain-Gut Axis Research at Peking University
+lang: en
+markdown: kramdown
+
+theme: null
+
+# If you deploy to https://<user>.github.io/<repo>, set baseurl to "/<repo>"
+# If you deploy to https://<user>.github.io, keep baseurl empty
+baseurl: ""
+url: "https://changhao-lab.github.io"

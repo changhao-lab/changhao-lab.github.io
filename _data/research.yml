@@ -1,0 +1,14 @@
+intro: Our lab focuses on fundamental and translational questions in biomedicine with a strong emphasis on the brain-gut axis.
+cards:
+  - title: Brain-Gut Communication
+    text: Neural and molecular pathways linking the enteric system and central nervous system in health and disease.
+  - title: Microbiome & Immunometabolism
+    text: Interactions among gut microbiota, immune regulation, and metabolic disorders through multi-omics approaches.
+  - title: Translational Therapeutics
+    text: Mechanism-guided intervention strategies and biomarkers for precision diagnostics and treatment.
+focus_title: Current Focus & Interest
+focus_items:
+  - Neuroimmune regulation in chronic inflammation
+  - Gut-derived signals in mood and cognitive function
+  - Host-microbe interactions and disease phenotyping
+  - Integrative bioinformatics for translational discovery

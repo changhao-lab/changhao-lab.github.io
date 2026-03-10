@@ -1,0 +1,70 @@
+pi:
+  name: Hao Chang
+  title: Assistant Professor
+  photo: assets/team/prof-chang.jpg
+  photo_alt: Profile photo of Hao Chang
+  photo_fallback: https://placehold.co/320x320/d9ecff/204566?text=PI
+  research: Dr. Chang employs an interdisciplinary research strategy that integrates neurogenetics, molecular biology, super-resolution imaging, and artificial intelligence–based neural network modeling to systematically study the multiscale information transmission and functional regulation of brain–gut signaling.
+  email: hao.chang@pku.edu.cn
+
+members:
+  - name: Haishuang Li
+    role: Ph.D. Student
+    photo: assets/team/student-1.jpg
+    photo_alt: Profile photo of PhD student
+    photo_fallback: https://placehold.co/320x320/e7f6e8/1e5d34?text=PhD
+    email: 2406797061@pku.edu.cn
+  - name: Honghai Wu
+    role: Ph.D. Student
+    photo: assets/team/student-2.jpg
+    photo_alt: Profile photo of PhD student
+    photo_fallback: https://placehold.co/320x320/f0edff/493678?text=PhD
+    email: 2816342258@qq.com
+  - name: Yuxuan Guo
+    role: Ph.D. Student
+    photo: assets/team/student-3.jpg
+    photo_alt: Profile photo of PhD student
+    photo_fallback: https://placehold.co/320x320/fff0e8/7a3a1b?text=PhD
+    email: 2210117139@stu.pku.edu.cn
+  - name: Chuyu Zhao
+    role: M.S. Student
+    photo: assets/team/student-4.jpg
+    photo_alt: Profile photo of MS student
+    photo_fallback: https://placehold.co/320x320/e9f2ff/1d4268?text=MS
+    email: su3139296748@gmail.com
+  - name: Jinshan Zhong
+    role: Research Assistant
+    photo: assets/team/research-assistant.jpg
+    photo_alt: Profile photo of research assistant
+    photo_fallback: https://placehold.co/320x320/eaf8ff/1f4a57?text=RA
+    email: jinshanzhong@pku.edu.cn
+  - name: Liang Chen
+    role: Administrative Assistant
+    photo: assets/team/administrative-assistant.jpg
+    photo_alt: Profile photo of administrative assistant
+    photo_fallback: https://placehold.co/320x320/f2eefe/4e3e80?text=Admin
+    email: 2606788092@pku.edu.cn
+  - name: Ruilan Yang
+    role: Visiting Student
+    photo: assets/team/visiting-1.jpg
+    photo_alt: Profile photo of visiting student
+    photo_fallback: https://placehold.co/320x320/e9f7ef/1f6a45?text=Visiting
+    email: 1255844942@qq.com
+  - name: Tianlang Ke
+    role: Visiting Student
+    photo: assets/team/visiting-2.jpg
+    photo_alt: Profile photo of visiting student
+    photo_fallback: https://placehold.co/320x320/eaf4ff/1e4a73?text=Visiting
+    email: 386711917@qq.com
+  - name: Yuzhi Qin
+    role: Visiting Student
+    photo: assets/team/visiting-3.jpg
+    photo_alt: Profile photo of visiting student
+    photo_fallback: https://placehold.co/320x320/fff1e8/7c3f1f?text=Visiting
+    email: yzqin1121@163.com
+  - name: Wenbo Xu
+    role: Undergraduate Student
+    photo: assets/team/undergraduate-student.jpg
+    photo_alt: Profile photo of undergraduate student
+    photo_fallback: https://placehold.co/320x320/edf2ff/2d4178?text=Undergrad
+    email: 2310117106@stu.pku.edu.cn

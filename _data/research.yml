@@ -1,14 +1,13 @@
 intro: Our lab focuses on fundamental and translational questions in biomedicine with a strong emphasis on the brain-gut axis.
 cards:
-  - title: Brain-Gut Communication
-    text: Neural and molecular pathways linking the enteric system and central nervous system in health and disease.
-  - title: Microbiome & Immunometabolism
-    text: Interactions among gut microbiota, immune regulation, and metabolic disorders through multi-omics approaches.
-  - title: Translational Therapeutics
-    text: Mechanism-guided intervention strategies and biomarkers for precision diagnostics and treatment.
+  - title: Neurophysiological Mechanisms Underlying Brain–Body Interactions
+    text: We investigate the neurophysiological principles that govern communication between the central nervous system and peripheral organs, with particular focus on circuit-level control of visceral function, stress adaptation, and systemic homeostasis.
+  - title: Large-Scale Data Analysis of Neurological Disorders
+    text: We integrate multi-modal clinical and biological datasets to identify disease-associated patterns, stratify patient phenotypes, and discover robust biomarkers that improve mechanistic understanding and translational decision-making in neurological disorders.
+  - title: Development of Brain–Body Integrated Imaging Technologies
+    text: We develop and apply advanced imaging and computational pipelines to capture dynamic brain–body signaling across scales, enabling quantitative mapping of neural activity, peripheral physiology, and their coordinated alterations in disease states.
 focus_title: Current Focus & Interest
-focus_items:
-  - Neuroimmune regulation in chronic inflammation
-  - Gut-derived signals in mood and cognitive function
-  - Host-microbe interactions and disease phenotyping
-  - Integrative bioinformatics for translational discovery
+focus_paragraphs:
+  - Guided by major national strategic needs in severe neurological disorders, our laboratory is dedicated to research on the brain–gut axis and brain–body interactions.
+  - We seek to elucidate how neural circuits regulate gastrointestinal function and to uncover the bidirectional interplay among stress, emotion, and the gut microbiota.
+  - Through these efforts, we aim to advance the understanding of the neural mechanisms underlying brain–body communication and to provide new insights into the diagnosis and treatment of neurological disorders.

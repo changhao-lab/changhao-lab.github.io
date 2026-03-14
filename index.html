@@ -63,11 +63,9 @@ description: Chang Hao Lab at Peking University. We explore biomedical science a
 
       <div class="focus-box">
         <h3>{{ site.data.research.focus_title }}</h3>
-        <ul>
-          {% for item in site.data.research.focus_items %}
-          <li>{{ item }}</li>
-          {% endfor %}
-        </ul>
+        {% for paragraph in site.data.research.focus_paragraphs %}
+        <p>{{ paragraph }}</p>
+        {% endfor %}
       </div>
     </div>
   </section>

@@ -271,6 +271,7 @@ h2 {
 
 .card p,
 .card li,
+.focus-box p,
 .focus-box li,
 .pub-year li {
   color: var(--muted);

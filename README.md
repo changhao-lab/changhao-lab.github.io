@@ -26,7 +26,7 @@ Only edit:
 - `_data/team.yml` (`members` list)
 
 ### Update Publications
-The scheduled workflow checks Hao Chang's public Google Scholar profile every five minutes. New works are appended to `_data/publications.yml`, kept in descending year order, committed to `main`, and followed by an explicit Pages build request.
+The scheduled workflow checks Hao Chang's public Google Scholar profile once daily. New works are appended to `_data/publications.yml`, kept in descending year order, committed to `main`, and followed by an explicit Pages build request.
 
 Manual corrections can still be made in `_data/publications.yml`.
 

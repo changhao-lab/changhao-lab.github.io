@@ -38,6 +38,12 @@ members:
     photo_alt: Profile photo of undergraduate student
     photo_fallback: https://placehold.co/320x320/edf2ff/2d4178?text=Undergrad
     email: 2310117106@stu.pku.edu.cn
+  - name: Xingyu Li
+    role: Undergraduate Student
+    photo: assets/team/xingyu-li.jpg
+    photo_alt: Profile photo of Xingyu Li
+    photo_fallback: https://placehold.co/320x320/edf2ff/2d4178?text=Undergrad
+    email: 2650208672@qq.com
   - name: Yunwen Feng
     role: Research Assistant
     photo: assets/team/yunwen-feng.jpg
@@ -62,6 +68,12 @@ members:
     photo_alt: Profile photo of Weiwei Zhang
     photo_fallback: https://placehold.co/320x320/fff1e8/7c3f1f?text=Visiting
     email: 2490736809@qq.com
+  - name: Yuan Shen
+    role: Visiting Student
+    photo: assets/team/yuan-shen.jpg
+    photo_alt: Profile photo of Yuan Shen
+    photo_fallback: https://placehold.co/320x320/e9f7ef/1f6a45?text=Visiting
+    email: m15803800970@163.com
   - name: Liang Chen
     role: Administrative Assistant
     photo: assets/team/administrative-assistant.jpg

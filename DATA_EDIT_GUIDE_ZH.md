@@ -45,7 +45,7 @@
   - `journal`：期刊名
   - `doi`：仅 DOI 号本体（不要带 `https://doi.org/`）
 
-网站每 5 分钟检查一次 Hao Chang 的公开 Google Scholar 主页，新论文会自动追加并触发网站构建。若需手动新增，可放到 `items` 下；保存时仍应保持年份从新到旧：
+网站每天检查一次 Hao Chang 的公开 Google Scholar 主页，新论文会自动追加并触发网站构建。若需手动新增，可放到 `items` 下；保存时仍应保持年份从新到旧：
 
 ```yml
 - year: 2026

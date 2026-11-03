@@ -42,7 +42,7 @@
 
 ## D. 新增 1 篇论文（最常用）
 
-Google Scholar 上新增论文后，网站会每 5 分钟自动检查并更新。若需手动补充：
+Google Scholar 上新增论文后，网站会每天自动检查并更新。若需手动补充：
 
 1. 打开 `_data/publications.yml`
 2. 在 `items:` 中按年份从新到旧插入一条：

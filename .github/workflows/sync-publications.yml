@@ -2,7 +2,8 @@ name: Sync publications from Google Scholar
 
 on:
   schedule:
-    - cron: "3,8,13,18,23,28,33,38,43,48,53,58 * * * *"
+    # Once daily at 03:17 Asia/Shanghai (19:17 UTC).
+    - cron: "17 19 * * *"
   workflow_dispatch:
 
 permissions:

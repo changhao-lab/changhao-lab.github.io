@@ -304,46 +304,7 @@ h2 {
   font-size: 0.92rem;
   color: #334155;
 }
-.pub-doi {
-  display: block;
-  margin-top: 0.22rem;
-  font-size: 0.82rem;
-  color: #64748b;
-  cursor: pointer;
-  transition: color 0.2s ease;
-}
 
-.pub-doi:hover,
-.pub-doi:focus-visible {
-  color: #334155;
-}
-
-.pub-doi.copied {
-  color: #0f766e;
-}
-
-.copy-toast {
-  position: fixed;
-  right: 20px;
-  bottom: 20px;
-  z-index: 1000;
-  padding: 0.5rem 0.75rem;
-  border-radius: 10px;
-  background: var(--surface);
-  color: var(--text);
-  border: 1px solid var(--line);
-  box-shadow: var(--shadow);
-  font-size: 0.86rem;
-  opacity: 0;
-  transform: translateY(8px);
-  pointer-events: none;
-  transition: opacity 0.2s ease, transform 0.2s ease;
-}
-
-.copy-toast.show {
-  opacity: 1;
-  transform: translateY(0);
-}
 .corr {
   margin-left: 0.08rem;
   font-size: 0.72em;

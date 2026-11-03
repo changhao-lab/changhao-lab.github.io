@@ -299,8 +299,7 @@ h2 {
   margin-top: 20px;
 }
 .pub-authors {
-  display: block;
-  margin-bottom: 0.28rem;
+  display: inline;
   font-size: 0.92rem;
   color: #334155;
 }

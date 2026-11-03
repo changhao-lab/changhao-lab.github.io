@@ -42,19 +42,21 @@
 
 ## D. 新增 1 篇论文（最常用）
 
+Google Scholar 上新增论文后，网站会每 5 分钟自动检查并更新。若需手动补充：
+
 1. 打开 `_data/publications.yml`
-2. 找到对应年份 `year:` 的 `items:`
-3. 追加一条：
+2. 在 `items:` 中按年份从新到旧插入一条：
 
 ```yml
-- authors: "A Author*, B Author, _Hao Chang_"
+- year: 2026
+  authors: "A Author*, B Author, Hao Chang"
   title: Example Paper Title
   url: https://example-journal.org/paper
   journal: Example Journal
   doi: 10.1234/example.2026.001
 ```
 
-4. 保存并刷新
+3. 保存并刷新
 
 ---
 

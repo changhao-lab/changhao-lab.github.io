@@ -36,19 +36,20 @@
 编辑文件：`_data/publications.yml`
 
 结构说明：
-- `years` 是年份分组列表
-- 每个年份下 `items` 是论文列表
+- `items` 是按年份从新到旧排列的论文列表，不再按年份分组
 - 每篇论文字段：
-  - `authors`：作者字符串（规则：通讯作者用 `*`，PI 名字用 `_Hao Chang_`）
+  - `year`：发表年份
+  - `authors`：作者字符串（通讯作者可在姓名后加 `*`）
   - `title`：论文标题
   - `url`：标题跳转链接（期刊正式页面）
   - `journal`：期刊名
   - `doi`：仅 DOI 号本体（不要带 `https://doi.org/`）
 
-新增一篇论文示例（放到某个 `items` 下）：
+网站每 5 分钟检查一次 Hao Chang 的公开 Google Scholar 主页，新论文会自动追加并触发网站构建。若需手动新增，可放到 `items` 下；保存时仍应保持年份从新到旧：
 
 ```yml
-- authors: "A Author*, B Author, _Hao Chang_"
+- year: 2026
+  authors: "A Author*, B Author, Hao Chang"
   title: Example Paper Title
   url: https://example-journal.org/paper
   journal: Example Journal
@@ -105,5 +106,5 @@ bundle exec jekyll serve
 ## 7) 常见错误排查
 - 页面不更新：检查 `.yml` 缩进（必须统一空格缩进）
 - 列表不显示：检查 `-` 是否与上级字段对齐
-- PI 下划线失效：确认写成 `_Hao Chang_`
 - 通讯作者星号失效：确认在作者名后加 `*`
+- Scholar 自动同步失败：到 GitHub 仓库的 Actions 页面查看 `Sync publications from Google Scholar` 日志，也可手动运行该工作流

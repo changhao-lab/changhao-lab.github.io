@@ -74,24 +74,20 @@ description: Chang Hao Lab at Peking University. We explore biomedical science a
         <h2>Publications</h2>
         <a class="btn btn-secondary" href="{{ site.data.site.scholar_url }}" target="_blank" rel="noopener noreferrer">Google Scholar Profile</a>
       </div>
-      <p class="pub-note"><sup class="corr">*</sup> indicates corresponding author.</p>
 
       <div class="pub-list">
-        {% for group in site.data.publications.years %}
-        <article class="pub-year">
-          <h3>{{ group.year }}</h3>
-          <ol>
-            {% for pub in group.items %}
-            <li>
-              <span class="pub-authors">{{ pub.authors | replace: '_Hao Chang_', '<u>Hao Chang</u>' | replace: '*', '<sup class="corr">*</sup>' }}</span>
-              <a href="{{ pub.url }}" target="_blank" rel="noopener noreferrer">{{ pub.title }}</a>.
-              <em>{{ pub.journal }}</em>. {{ group.year }}.
-              <span class="pub-doi">DOI: https://doi.org/{{ pub.doi }}</span>
-            </li>
-            {% endfor %}
-          </ol>
-        </article>
+        <ol>
+        {% for pub in site.data.publications.items %}
+          <li>
+            <span class="pub-authors">{{ pub.authors | replace: '_Hao Chang_', 'Hao Chang' | replace: '*', '<sup class="corr">*</sup>' }}</span>
+            <a href="{{ pub.url }}" target="_blank" rel="noopener noreferrer">{{ pub.title }}</a>.
+            <strong class="pub-journal"><em>{{ pub.journal }}</em></strong>. {{ pub.year }}.
+            {% if pub.doi and pub.doi != "" %}
+            <span class="pub-doi">DOI: https://doi.org/{{ pub.doi }}</span>
+            {% endif %}
+          </li>
         {% endfor %}
+        </ol>
       </div>
     </div>
   </section>

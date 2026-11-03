@@ -8,6 +8,8 @@ Data-driven Jekyll website for **Chang Hao Lab**, ready for GitHub Pages.
 - `_data/site.yml` - Site-level text (hero, footer, scholar link)
 - `_data/research.yml` - Research module content
 - `_data/publications.yml` - Publications data (authors, links, DOI)
+- `.github/workflows/sync-publications.yml` - Scheduled Google Scholar sync
+- `scripts/sync_google_scholar.py` - Append-only Scholar importer
 - `_data/team.yml` - PI + member cards
 - `_data/positions.yml` - Open positions module content
 - `index.html` - Single-page template that renders all modules from `_data`
@@ -24,8 +26,9 @@ Only edit:
 - `_data/team.yml` (`members` list)
 
 ### Update Publications
-Only edit:
-- `_data/publications.yml`
+The scheduled workflow checks Hao Chang's public Google Scholar profile every five minutes. New works are appended to `_data/publications.yml`, kept in descending year order, committed to `main`, and followed by an explicit Pages build request.
+
+Manual corrections can still be made in `_data/publications.yml`.
 
 ### Update Hero/Footer/Scholar Link
 Only edit:

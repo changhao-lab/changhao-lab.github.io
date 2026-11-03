@@ -79,8 +79,7 @@ description: Chang Hao Lab at Peking University. We explore biomedical science a
         <ol>
         {% for pub in site.data.publications.items %}
           <li>
-            <span class="pub-authors">{{ pub.authors | replace: '_Hao Chang_', 'Hao Chang' | replace: '*', '<sup class="corr">*</sup>' }}</span>
-            <a href="{{ pub.url }}" target="_blank" rel="noopener noreferrer">{{ pub.title }}</a>.
+            <span class="pub-authors">{{ pub.authors | replace: '_Hao Chang_', 'Hao Chang' | replace: '*', '<sup class="corr">*</sup>' }}</span>. <a href="{{ pub.url }}" target="_blank" rel="noopener noreferrer">{{ pub.title }}</a>.
             <strong class="pub-journal"><em>{{ pub.journal }}</em></strong>. {{ pub.year }}.
           </li>
         {% endfor %}

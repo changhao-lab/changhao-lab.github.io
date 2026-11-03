@@ -63,11 +63,17 @@ def normalize_title(value):
 
 def normalize_doi(value):
     value = unquote(clean_text(value)).strip()
+    is_preprint_content_url = bool(
+        re.search(r"https?://(?:www\.)?(?:bio|med)rxiv\.org/content/", value, flags=re.I)
+    )
     value = re.sub(r"^(?:https?://(?:dx\.)?doi\.org/|doi:\s*)", "", value, flags=re.I)
     match = DOI_PATTERN.search(value)
     if not match:
         return ""
-    return match.group(0).rstrip(".,;:)]}\"'").casefold()
+    doi = match.group(0).rstrip(".,;:)]}\"'")
+    if is_preprint_content_url:
+        doi = re.sub(r"\.(?:abstract|full(?:\.pdf)?)$", "", doi, flags=re.I)
+    return doi.casefold()
 
 
 class CaptureParser(HTMLParser):

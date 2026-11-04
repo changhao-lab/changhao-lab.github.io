@@ -50,6 +50,12 @@ members:
     photo_alt: Profile photo of Yunwen Feng
     photo_fallback: https://placehold.co/320x320/eaf8ff/1f4a57?text=RA
     email: morphy1678@outlook.com
+  - name: Kaitian Jiang
+    role: Research Assistant
+    photo: assets/team/kaitian-jiang.jpg
+    photo_alt: Profile photo of Kaitian Jiang
+    photo_fallback: https://placehold.co/320x320/eaf8ff/1f4a57?text=RA
+    email: kaitian.jiang@outlook.com
   - name: Ruilan Yang
     role: Visiting Student
     photo: assets/team/visiting-1.jpg

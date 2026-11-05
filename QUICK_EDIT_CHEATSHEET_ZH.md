@@ -28,7 +28,7 @@
 
 ```yml
 - name: New Member
-  role: Ph.D. Student
+  role: PhD Student
   photo: assets/team/new-member.jpg
   photo_alt: Profile photo of new member
   photo_fallback: https://placehold.co/320x320/eaf4ff/1e4a73?text=Member

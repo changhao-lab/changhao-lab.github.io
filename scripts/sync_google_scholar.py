@@ -23,6 +23,8 @@ import yaml
 
 
 SCHOLAR_ID = "2YZzmdUAAAAJ"
+TEMPORARY_UNAVAILABLE_EXIT_CODE = 75
+TRANSIENT_HTTP_CODES = {403, 408, 425, 429}
 PROFILE_URL = (
     "https://scholar.google.com/citations"
     f"?hl=en&user={SCHOLAR_ID}&view_op=list_works&sortby=pubdate&pagesize=100"
@@ -50,6 +52,10 @@ VOID_TAGS = {
     "track",
     "wbr",
 }
+
+
+class TemporaryScholarError(RuntimeError):
+    """Google Scholar could not be reached now, but a later retry may work."""
 
 
 def clean_text(value):
@@ -217,6 +223,12 @@ class ScholarDetailParser(CaptureParser):
             self.title = value
 
 
+def is_temporary_fetch_error(error):
+    if isinstance(error, HTTPError):
+        return error.code in TRANSIENT_HTTP_CODES or 500 <= error.code < 600
+    return isinstance(error, (URLError, TimeoutError))
+
+
 def fetch_html(url, attempts=3):
     request = Request(
         url,
@@ -236,8 +248,11 @@ def fetch_html(url, attempts=3):
         except (HTTPError, URLError, TimeoutError) as error:
             last_error = error
             if attempt + 1 < attempts:
-                time.sleep(2 ** attempt)
-    raise RuntimeError(f"Could not read Google Scholar after {attempts} attempts: {last_error}")
+                time.sleep(15 * (2 ** attempt))
+    message = f"Could not read Google Scholar after {attempts} attempts: {last_error}"
+    if is_temporary_fetch_error(last_error):
+        raise TemporaryScholarError(message)
+    raise RuntimeError(message)
 
 
 def parse_profile(document):
@@ -246,7 +261,9 @@ def parse_profile(document):
     if not parser.rows:
         lower_document = document.casefold()
         if "unusual traffic" in lower_document or "not a robot" in lower_document:
-            raise RuntimeError("Google Scholar returned an anti-bot page instead of the public profile")
+            raise TemporaryScholarError(
+                "Google Scholar returned an anti-bot page instead of the public profile"
+            )
         raise RuntimeError("No publications were found in the Google Scholar profile response")
     return parser.rows
 
@@ -423,6 +440,10 @@ def main():
             profile_document = fetch_html(args.profile_url)
         rows = parse_profile(profile_document)
         combined, added = add_new_publications(existing, rows)
+    except TemporaryScholarError as error:
+        print(f"Google Scholar is temporarily unavailable: {error}", file=sys.stderr)
+        print("Existing publication data was left unchanged; the next daily run will retry.")
+        return TEMPORARY_UNAVAILABLE_EXIT_CODE
     except Exception as error:
         print(f"Publication sync failed: {error}", file=sys.stderr)
         return 1
